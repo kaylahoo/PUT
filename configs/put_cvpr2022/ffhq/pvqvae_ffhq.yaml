@@ -80,7 +80,7 @@ solver:
 
 dataloader:
   data_root: data
-  batch_size: 16
+  batch_size: 12
   num_workers: 1
   train_datasets:
     - target: image_synthesis.data.image_list_dataset.ImageListDataset
